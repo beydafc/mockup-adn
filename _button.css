@@ -1,0 +1,17 @@
+.nav-icon {
+  color: white;
+  background-color: #232c49;
+  width: 95%;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+}
+
+.nav-icon:hover {
+  background-color: #37415a;
+}
+
+.nav-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
