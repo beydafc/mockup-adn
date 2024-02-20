@@ -1,0 +1,17 @@
+.primary-container {
+  background-color: #f4f7fb;
+  margin: .5%;
+  border-radius: 5%;
+  height: 100%;
+}
+
+.navigation {
+  background-color: #232c49;
+  height: max-content;
+  padding-top: 30%;
+  padding-bottom: 20%;
+}
+
+h2 {
+  color: white;
+}
