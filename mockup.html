@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="mockup.css"/>
   <link rel="stylesheet" type="text/css" href="_button.css"/>
+  <link rel="stylesheet" type="text/css" href="_form.css"/>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
   <script src="https://unpkg.com/feather-icons"></script>
@@ -31,8 +32,21 @@
         <li><button class="nav-icon"><i class="fa-solid fa-arrow-right-from-bracket"></i></i> Cerrar sesión</button></li>
       </ul>
     </div>
-    <div class="container content col-10">
-      <div class="top"></div>
+    <div class="content-container col-10">
+      <div class="top d-flex justify-content-around">
+        <div>
+          <h1>Dashboard</h1>
+          <h5>¡Hola, Bienvenido a !</h5>
+        </div>
+        <div>
+          <form action="#">
+            <input type="text" id="search-form" value="Buscar...">
+          </form>
+        </div>
+        <div class="d-flex">
+          <button><i class="fa-solid fa-bell"></i></button>
+        </div>
+      </div>
       <div class="progress"></div>
       <div class="chart"></div>
       <div class="details"></div>
