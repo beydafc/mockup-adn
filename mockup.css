@@ -7,11 +7,32 @@
 
 .navigation {
   background-color: #232c49;
-  height: max-content;
-  padding-top: 10%;
+  height: min-content;
+  padding-top: 12%;
   padding-bottom: 20%;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 18px;
 }
 
-h2 {
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-options {
+  margin-bottom: 40%;
+}
+
+.navigation h6 {
   color: white;
+  font-size: 19px;
+}
+
+hr {
+  color: white;
+}
+
+hr {
+  background-color: white;
 }
