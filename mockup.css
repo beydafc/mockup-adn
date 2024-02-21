@@ -21,6 +21,10 @@
   margin-left: 1.5%;
 }
 
+.metrics {
+  padding-right: 50px;
+}
+
 ul {
   list-style-type: none;
   padding: 0;

@@ -1,1 +1,44 @@
+.metrics-card {
+  margin-top: 25px;
+  height: 130px;
+  width: 305px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+
+.metrics-card-info {
+  padding-top: 22px;
+  padding-left: 18px;
+  line-height: 5px;
+
+  h5 {
+    font-weight: normal;
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 17px;
+  }
+}
+
+.metrics-card-icon {
+  font-size: 60px;
+  text-align: center;
+}
+
+.metrics-decoration {
+  height: 5px;
+  width: 210px;
+  text-align: end;
+  justify-content: end;
+}
+
+#decoration-grey {
+  background-color: #9aa4b2;
+}
+
+#decoration-blue {
+  background-color: #bfd1df;
+}
 
