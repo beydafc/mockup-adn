@@ -61,3 +61,8 @@
   line-height: 1.1px;
   padding-top: 7px;
 }
+
+.user-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
