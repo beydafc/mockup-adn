@@ -1,0 +1,79 @@
+.metrics {
+  padding-right: 50px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-options {
+  margin-bottom: 40%;
+}
+
+.navigation h6 {
+  color: white;
+  font-size: 19px;
+}
+
+hr {
+  color: white;
+}
+
+hr {
+  background-color: white;
+}
+
+.graphic {
+  padding-right: 50px;
+  margin-top: 25px;
+  height: 350px;
+  width: 95%;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.control {
+  padding-right: 63px;
+}
+.formularios {
+  padding-right: 50px;
+  margin-top: 25px;
+  height: 230px;
+  width: 48.5%;
+  background-color: white;
+  border-radius: 15px;
+
+  hr {
+    position: relative;
+    top: 10px;
+    border: none;
+    height: 1px;
+    background: rgb(190, 190, 190);
+    width: 30em;
+  }
+
+  h5 {
+    padding-top: 30px;
+    line-height: 0px;
+    padding-left: 50px;
+  }
+}
+
+.ausentismo {
+  padding-right: 50px;
+  margin-top: 25px;
+  height: 230px;
+  width: 24.5%;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.haberes {
+  padding-right: 50px;
+  margin-top: 25px;
+  height: 230px;
+  width: 24.25%;
+  background-color: white;
+  border-radius: 15px;
+}
