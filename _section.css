@@ -2,11 +2,6 @@
   padding-right: 50px;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
 .nav-options {
   margin-bottom: 40%;
 }
@@ -14,14 +9,6 @@ ul {
 .navigation h6 {
   color: white;
   font-size: 19px;
-}
-
-hr {
-  color: white;
-}
-
-hr {
-  background-color: white;
 }
 
 .graphic {
@@ -36,10 +23,11 @@ hr {
 .control {
   padding-right: 63px;
 }
+
 .formularios {
   padding-right: 50px;
   margin-top: 25px;
-  height: 230px;
+  height: 200px;
   width: 48.5%;
   background-color: white;
   border-radius: 15px;
@@ -58,12 +46,26 @@ hr {
     line-height: 0px;
     padding-left: 50px;
   }
+
+  .blue {
+    color: #455d9e;
+    font-size: small;
+  }
+
+  .light-blue {
+    font-size: small;
+    color: #457eac;
+  }
+
+  ul {
+    padding-left: 30px;
+  }
 }
 
 .ausentismo {
   padding-right: 50px;
   margin-top: 25px;
-  height: 230px;
+  height: 200px;
   width: 24.5%;
   background-color: white;
   border-radius: 15px;
@@ -72,8 +74,15 @@ hr {
 .haberes {
   padding-right: 50px;
   margin-top: 25px;
-  height: 230px;
+  height: 200px;
   width: 24.25%;
   background-color: white;
   border-radius: 15px;
+}
+
+#vertical-hr {
+  height: 20vh;
+  width: 1px;
+  background: rgb(190, 190, 190);
+  margin: 0;
 }
