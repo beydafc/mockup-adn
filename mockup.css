@@ -1,8 +1,8 @@
 .primary-container {
   background-color: #f4f7fb;
   margin: .5%;
-  border-radius: 5%;
-  height: 100%;
+  height: min-content;
+  border-radius: 45px;
 }
 
 .navigation {
@@ -13,12 +13,15 @@
   padding-left: 15%;
   padding-right: 15%;
   font-size: 18px;
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
 }
 
 .content-container {
   color: #6e6d72;
   margin-top: 2%;
   margin-left: 1.5%;
+  height: min-content;
 }
 
 ul {
