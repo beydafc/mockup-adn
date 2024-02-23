@@ -11,7 +11,7 @@
   font-size: 19px;
 }
 
-.graphic {
+.graphic-container {
   padding-right: 50px;
   margin-top: 25px;
   height: 350px;
@@ -24,7 +24,7 @@
   padding-right: 13px;
 }
 
-.graphic {
+.graphic-container {
   padding-left: 30px;
   padding-top: 20px;
 
