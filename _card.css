@@ -1,6 +1,6 @@
 .metrics-card {
   margin-top: 25px;
-  height: 130px;
+  height: 125px;
   width: 305px;
   background-color: white;
   border-radius: 15px;
@@ -41,4 +41,3 @@
 #decoration-blue {
   background-color: #bfd1df;
 }
-

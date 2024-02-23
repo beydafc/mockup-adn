@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Graphic</title>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['line']});
+      google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      var data = new google.visualization.DataTable();
+      data.addColumn('number', 'Data');
+      data.addColumn('number', 'Line');
+
+      data.addRows([
+        [0.5,  .62],
+        [1,  .65],
+        [5,  .75],
+        [10, 1],
+        [11.75,  1.15],
+        [11.95,  1.12],
+        [15,  1],
+        [20,  .75],
+        [22.15,  .68],
+        [37,  .93],
+        [50.1,  .65],
+        [60,  1],
+        [72,  1.5],
+      ]);
+
+      var options = {
+        chart: {
+        },
+        width: 1700,
+        height: 500,
+        axes: {
+          x: {
+          },
+        },
+        hAxis: {
+          gridlines: {
+            count: 0
+          }
+        },
+        curveType: 'function',
+        dataOpacity: 0.0,
+      };
+
+      var chart = new google.charts.Line(document.getElementById('line_top_x'));
+
+      chart.draw(data, google.charts.Line.convertOptions(options));
+    }
+  </script>
+</head>
+<body>
+  <div id="line_top_x"></div>
+</body>
+</html>
