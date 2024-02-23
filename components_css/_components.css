@@ -1,0 +1,15 @@
+#vertical-hr {
+  height: 88px;
+  width: 1px;
+  background: rgb(190, 190, 190);
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+hr {
+  background-color: white;
+}
