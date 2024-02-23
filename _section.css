@@ -1,5 +1,6 @@
 .metrics {
-  padding-right: 50px;
+  padding-right: 60px;
+  margin: 0;
 }
 
 .nav-options {
@@ -11,34 +12,15 @@
   font-size: 19px;
 }
 
-.graphic-container {
-  padding-right: 50px;
-  margin-top: 25px;
-  height: 350px;
-  width: 95%;
-  background-color: white;
-  border-radius: 15px;
-}
-
 .control {
-  padding-right: 13px;
+  margin-right: 70px;
 }
-
-.graphic-container {
-  padding-left: 30px;
-  padding-top: 20px;
-
-  hr {
-    height: .5px;
-    background: rgb(190, 190, 190);
-  }
-}
-
 .formularios {
   padding-right: 30px;
   margin-top: 40px;
   height: 180px;
-  width: 50%;
+  margin-left: 10px;
+  width: 47%;
   background-color: white;
   border-radius: 15px;
 
@@ -75,11 +57,9 @@
 .ausentismo {
   margin-top: 40px;
   height: 180px;
-  width: 25%;
+  width: 305px;
   background-color: white;
   border-radius: 15px;
-  margin-left: 50px;
-  margin-right: 50px;
 
   hr {
     position: relative;
@@ -101,11 +81,9 @@
 .haberes {
   margin-top: 40px;
   height: 180px;
-  width: 25%;
+  width: 305px;
   background-color: white;
   border-radius: 15px;
-  margin-left: 50px;
-  margin-right: 50px;
 
   hr {
     position: relative;

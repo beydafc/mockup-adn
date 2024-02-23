@@ -1,7 +1,7 @@
 .primary-container {
   background-color: #f4f7fb;
   margin: .5%;
-  height: min-content;
+  height: fit-content;
   border-radius: 45px;
 }
 
